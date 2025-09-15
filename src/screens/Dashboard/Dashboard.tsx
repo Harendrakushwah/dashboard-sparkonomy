@@ -1,4 +1,3 @@
-import React from "react";
 import {
   ComposedChart,
   Bar,
@@ -53,7 +52,7 @@ const chartData = [
   { name: "Jun", income: 2390, momGrowth: 80 },
 ];
 
-export default function Dashboard(): JSX.Element {
+export default function Dashboard() {
   return (
     <div className="dashboard-container">
       <div className="dashboard-header">
